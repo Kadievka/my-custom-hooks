@@ -12,7 +12,8 @@
     ...
   }
 
-  const { data, loading, error } = useForm(initialState);
+  const [ values, handleInputChange, resetAllValues ] = useForm(initialState);
+  
 ```
 
 useForm() // recibe un valor por defecto de {}
