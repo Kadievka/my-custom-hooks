@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import UseFetchStateInterface from "../interfaces/UseFetchStateInterface";
+import UseFetchStateInterface from "../../interfaces/UseFetchStateInterface";
 
 export default function useFetch(url?: string): UseFetchStateInterface {
 

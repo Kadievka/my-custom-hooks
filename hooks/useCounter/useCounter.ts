@@ -1,5 +1,5 @@
 import { useState } from "react"
-import UseCounterResponseInterface from "../interfaces/UseCounterResponseInterface";
+import UseCounterResponseInterface from "../../interfaces/UseCounterResponseInterface";
 
 export const useCounter = (initialState = 10): UseCounterResponseInterface => {
 
